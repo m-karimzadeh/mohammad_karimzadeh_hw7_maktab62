@@ -1,0 +1,31 @@
+/*** Created by finalstar on 1/19/2021. */
+@charset "utf-8";
+
+/*--------------------------------------------- reset ----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+body{ line-height: 1; }
+
+*{ box-sizing: border-box; }
+
+#container{ line-height: 24px; padding: 10px 10px; font-size: 15px; }
+.hideInfoTitle{ padding: 10px 10px; background: #e5e5e5; font-weight: bold; border-bottom: 1px solid #616161; display: flex; align-items: center; cursor: pointer; }
+.hideInfoTitle::before{ content: ''; width: 8px; height: 8px; margin-right: 10px; border: solid red; border-width: 3px 3px 0 0; transform: rotate(45deg); display: inline-block; transition: all .3s linear; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
+.hideInfoTitle.active{ background: #ffffff; }
+.hideInfoTitle.active::before{ transform: rotate(135deg); -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); }
+.hideInfoBody{ padding: 20px 30px; background: #f4f4f4; display: none; }
+

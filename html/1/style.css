@@ -1,0 +1,107 @@
+/*** Created by finalstar on 1/19/2021. */
+@charset "utf-8";
+
+/*--------------------------------------------- reset ----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+body{ line-height: 1; }
+
+*{ box-sizing: border-box; }
+
+.flexBox{ display: flex; flex-wrap: wrap; }
+
+.p-30{ padding: 30px 30px; }
+.mt-30{ margin-top: 30px; }
+
+.grayBox{ background: #eff0f0; }
+.blueBox{ background: rgb(60, 138, 228); }
+.yellowBox{ background: rgb(231, 187, 93); }
+.greenBox{ background: rgb(93, 231, 190); }
+.redBox{ margin-right: 0; background: rgb(231, 93, 127); }
+
+.container{ padding: 0 15px; }
+header{ line-height: 40px; background: #3483e8; font-family: monospace; font-size: 34px; color: #ffffff; text-align: center; }
+
+#listType1 > section{ line-height: 24px; font-size: 15px; text-align: center; }
+#listType1 h2{ font-family: monospace; font-weight: bold; font-size: 19px; }
+
+#listType2{ line-height: 24px; color: #eff0f0; font-size: 15px; text-align: center; }
+
+.p-15{ padding: 0 15px; }
+.pl-15{ padding-left: 15px; }
+.pr-15{ padding-right: 15px; }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.dis-none{ display: none; }
+
+@media only screen and (min-width: 600px){
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+
+    .dis-none{ display: block; }
+}
+@media only screen and (min-width: 800px){
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1000px){
+    .col-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
